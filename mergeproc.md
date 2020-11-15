@@ -6,18 +6,18 @@
  - make changes
  - make more changes
 
- - git add, commit, publish new created branch
+ - Run git add, commit, publish new created branch
  ```
  git add .
  git commit -m 'create new doc with instructions'
  git status
- git push -u origin feature/doc
+ git push -u origin feature/doc1
  ```
 
  - create a PR for this feature branch on Github
 
 I should get the message:
-Branch 'feature/doc' set up to track remote branch 'feature/doc' from 'origin'.
+Branch 'feature/doc1' set up to track remote branch 'feature/doc1' from 'origin'.
 
 Then do:
 ```
