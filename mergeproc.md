@@ -25,7 +25,7 @@ git fetch origin
 git checkout -b feature/doc origin/feature/doc
 ```
 If I'm in the feature branch, it will say the message:
-fatal: A branch named 'feature/doc' already exists.
+fatal: A branch named 'feature/doc1' already exists.
 
 But it's all okay.
 Finally, run:
@@ -34,4 +34,5 @@ git merge main
 git checkout main
 git merge --no-ff feature/doc
 git push origin main
+```
 
