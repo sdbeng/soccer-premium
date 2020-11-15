@@ -22,7 +22,7 @@ Branch 'feature/doc1' set up to track remote branch 'feature/doc1' from 'origin'
 Then do:
 ```
 git fetch origin
-git checkout -b feature/doc origin/feature/doc
+git checkout -b feature/doc1 origin/feature/doc1
 ```
 If I'm in the feature branch, it will say the message:
 fatal: A branch named 'feature/doc1' already exists.
@@ -32,7 +32,7 @@ Finally, run:
 ```
 git merge main
 git checkout main
-git merge --no-ff feature/doc
+git merge --no-ff feature/doc1
 git push origin main
 ```
-
+Note: After the git merge... command, write the final commit message in vim, then save and exit.
